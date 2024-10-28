@@ -2,7 +2,7 @@
 background: rgb(178, 245, 178);
 display: flex;
 justify-content:center ;
-margine:0;
+margin:0;
 }
 .wrap {
 width: 100%;
@@ -26,7 +26,7 @@ color: rgba(61, 192, 142, 0.883);
 }
 
 .logo { 
-background-image: url(/week5/assets/images/png/logo.png);
+background-image: url(/assets/images/png/logo.png);
 background-size: contain;
 background-repeat: no-repeat;
 width: 50px;
@@ -46,29 +46,31 @@ font-family: Verdana, sans-serif;
 .link:hover{
 background: dodgerblue;
 }
-/* 
+
 .main1{
   background: rgba(181, 245, 245, 0.842);
   display: flex;
-  flex-direction: row;
-  height: 500px;
+  }
+
+.firstrow {
+
+  width:100% ;
+}
+.tool1 {
+margin-top:10px ;
+margin-left:20px;
+}
+.tool2{
+margin-left: 20px; 
 }
 
-.tool{ 
-  width: 350px;
-  height: 200px; */
-
-
-/* 
+.tool3{
+  margin-top:10px ;
 }
 
-.book {width: 350px;
-
-}
-
-.cristall {width: 350px; */
-
-}
+.secondrow {
+  width: 100%;
+} 
 
 
 
